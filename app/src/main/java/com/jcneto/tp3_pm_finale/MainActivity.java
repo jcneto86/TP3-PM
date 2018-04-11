@@ -2,9 +2,9 @@ package com.jcneto.tp3_pm_finale;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {

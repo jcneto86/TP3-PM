@@ -24,7 +24,7 @@
             android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".FullImageActivity"
-            android:theme="@style/AppThemeGalleryFull">
+            android:theme="@style/AppThemeFull">
         </activity>
     </application>
 
