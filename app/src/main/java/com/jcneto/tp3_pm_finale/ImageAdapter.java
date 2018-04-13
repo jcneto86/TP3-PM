@@ -37,10 +37,6 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.imagefull21, R.drawable.imagefull22,
     };
 
-    public Integer[] imagesBg = {
-            R.drawable.background
-    };
-
     public ImageAdapter(Context c)
     {
         context = c;

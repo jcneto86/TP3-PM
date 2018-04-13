@@ -21,9 +21,8 @@ public class NavegationActivity extends AppCompatActivity {
         Intent intent = new Intent(this, VideoActivity.class);
         startActivity(intent);
     }
-    public void ouvrirLogo(View view){
-        Intent intent = new Intent(this, HomeActivity.class);
-        startActivity(intent);
+    public void quitterApp(View view){
+        finishAffinity();
     }
 
 }

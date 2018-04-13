@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".NavegationActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        android:scaleType="centerCrop"/>/>
+
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -36,16 +43,9 @@
 
         <Button
             android:id="@+id/btLogo"
-            android:onClick="ouvrirLogo"
+            android:onClick="quitterApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/logo" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:elevation="18dp"
-            app:srcCompat="@mipmap/btBackground" />
+            android:text="@string/quitterApp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
