@@ -24,8 +24,12 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".FullImageActivity"
-            android:theme="@style/AppThemeFull"></activity>
-        <activity android:name=".VideoActivity"></activity>
+            android:theme="@style/AppThemeFull" />
+        <activity
+            android:name=".VideoActivity" />
+        <activity
+            android:name=".NavegationActivity"
+            android:theme="@style/AppTheme" ></activity>
     </application>
 
 </manifest>

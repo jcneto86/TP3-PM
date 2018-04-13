@@ -6,8 +6,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.jcneto.tp3_pm_finale.R;
-
 public class ImageAdapter extends BaseAdapter {
 
 
@@ -37,6 +35,10 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.imagefull17, R.drawable.imagefull18,
             R.drawable.imagefull19, R.drawable.imagefull20,
             R.drawable.imagefull21, R.drawable.imagefull22,
+    };
+
+    public Integer[] imagesBg = {
+            R.drawable.background
     };
 
     public ImageAdapter(Context c)
