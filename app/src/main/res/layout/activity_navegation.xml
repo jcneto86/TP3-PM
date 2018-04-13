@@ -8,10 +8,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/background"
-        android:scaleType="centerCrop"/>/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -24,28 +27,56 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        >
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/primaryText"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"/>
 
         <Button
             android:id="@+id/btGalery"
-            android:onClick="ouvrirGalerie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/galery" />
+            android:layout_marginTop="35dp"
+            android:background="@drawable/bt_bg"
+            android:fontFamily="serif"
+            android:onClick="ouvrirGalerie"
+            android:text="@string/galery"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btVideo"
-            android:onClick="ouvrirVideo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/video" />
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bt_bg"
+            android:fontFamily="serif"
+            android:onClick="ouvrirVideo"
+            android:text="@string/video"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btLogo"
-            android:onClick="quitterApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/quitterApp" />
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bt_bg"
+            android:fontFamily="serif"
+            android:onClick="quitterApp"
+            android:text="@string/quitterApp"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
